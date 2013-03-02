@@ -11,7 +11,7 @@ import java.net.UnknownHostException;
  * Time: 18:57
  * To change this template use File | Settings | File Templates.
  */
-public class HelloWorld {
+public class HelloMongo {
     public static void main( String[] args ) throws UnknownHostException {
         MongoClient client = new MongoClient(new ServerAddress("localhost", 27017));
 
